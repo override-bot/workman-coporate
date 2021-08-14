@@ -2,7 +2,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 99%;
     margin: 0 auto;
-    background-color: white;
+    background-color: rgb(245, 244, 244);
     margin-top: 5px;
 }
 
@@ -108,4 +108,62 @@ a {
     background-color: rgba(34, 14, 150, 0.863);
     border: 1px solid rgba(34, 14, 150, 0.863);
     color: white;
+}
+
+.main-m {
+    background-color: white;
+    width: 95%;
+    margin: 0 auto;
+    height: 570px;
+    display: flex;
+    background-color: rgb(245, 244, 244);
+}
+
+.workwel {
+    background-image: url(../assets/Screenshot_20210814_154904_com.example.workman[237].jpg);
+    width: 40%;
+    background-size: 100% 100%;
+    height: 84%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.workwel-container {
+    width: 50%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.workwel-txt {
+    width: 50%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 20px;
+    color: rgb(5, 4, 10);
+}
+
+.feats {
+    display: flex;
+}
+
+.circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 15px;
+    background-color: rgba(34, 14, 150, 0.863);
+    text-align: center;
+}
+
+i {
+    margin-top: 22%;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.ftxt {
+    margin-left: 10px;
+    line-height: 3px;
 }
