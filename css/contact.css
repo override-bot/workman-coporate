@@ -177,3 +177,71 @@ i {
 footer {
     text-align: center;
 }
+
+.form {
+    width: 40%;
+    margin: 0 auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 600px;
+    background-color: white;
+}
+
+.head {
+    color: rgba(34, 14, 150, 0.863);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.input {
+    color: rgba(34, 14, 150, 0.863);
+    margin: 30px;
+    width: 90%;
+    font-weight: 600;
+}
+
+#email {
+    width: 90%;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#name {
+    width: 90%;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 1px solid rgba(34, 14, 150, 0.863)!important;
+}
+
+#message {
+    width: 90%;
+    height: 90px;
+    border: 1px solid rgb(187, 186, 186);
+    border-radius: 5px;
+    background-color: rgb(187, 186, 186);
+}
+
+.btn {
+    width: 30%;
+    height: 30px;
+    background-color: rgba(34, 14, 150, 0.863);
+    margin: 0 auto;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+button {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(34, 14, 150, 0.863);
+    border: 1px solid rgba(34, 14, 150, 0.863);
+    color: white;
+    font: 32px;
+    border-radius: 5px;
+    font-weight: bold;
+}
