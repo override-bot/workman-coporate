@@ -73,7 +73,7 @@ body {
 .nav {
     display: flex;
     color: black;
-    margin-left: 45%;
+    margin-left: 60%;
 }
 
 .nav-link {
@@ -119,7 +119,7 @@ a {
 
 .main-n {
     background-color: white;
-    height: 200px;
+    height: 240px;
     background-color: rgba(20, 19, 19, 0.747);
     padding: 15px;
     display: flex;

@@ -20,7 +20,10 @@ function sendMessage() {
             email: email,
             name: name,
             message: message
+        }).then(() => {
+            alert("message sent succesfully")
+        }).catch((error) => {
+            alert(error.message);
         });
-        alert("message sent succesfully")
     }
 }
