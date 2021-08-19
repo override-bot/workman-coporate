@@ -245,3 +245,32 @@ button {
     border-radius: 5px;
     font-weight: bold;
 }
+
+@media only screen and (max-device-width:768px) {
+    .form {
+        width: 90%;
+        margin-top: 100px;
+    }
+    #email {
+        width: 95%;
+        height: 70px;
+        border: 1px solid grey;
+        border-radius: 5px;
+    }
+    #name {
+        width: 95%;
+        height: 70px;
+        border: 1px solid grey;
+        border-radius: 5px;
+    }
+    input:focus {
+        border: 1px solid rgba(34, 14, 150, 0.863)!important;
+    }
+    #message {
+        width: 95%;
+        height: 90px;
+        border: 1px solid rgb(187, 186, 186);
+        border-radius: 5px;
+        background-color: rgb(187, 186, 186);
+    }
+}

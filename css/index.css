@@ -177,3 +177,61 @@ i {
 footer {
     text-align: center;
 }
+
+@media only screen and (max-device-width:768px) {
+    .main {
+        flex-direction: column;
+    }
+    .main-l {
+        width: 100%;
+        height: fit-content;
+    }
+    .hire {
+        color: white;
+    }
+    .main-div1 {
+        height: 500px;
+        width: 100%;
+        text-align: center;
+        background-image: url(../assets/image.jpg);
+        background-size: 100% 100%;
+    }
+    .main-div2 {
+        height: 500px;
+        width: 100%;
+        display: none;
+    }
+    .button {
+        margin: 0 auto;
+    }
+    body {
+        width: 100%;
+    }
+    .main-m {
+        flex-direction: column;
+        height: fit-content;
+    }
+    .workwel {
+        background-image: url(../assets/Screenshot_20210814_154904_com.example.workman[237].jpg);
+        width: 40%;
+        background-size: 100% 100%;
+        height: 400px;
+        margin: 0 auto;
+        border-radius: 5px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .workwel-container {
+        width: 100%;
+        height: fit-content;
+    }
+    .workwel-txt {
+        width: 100%;
+    }
+    .feats {
+        margin: 0 auto;
+        width: 50%;
+    }
+    .fff {
+        text-align: center;
+    }
+}
