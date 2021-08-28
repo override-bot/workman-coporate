@@ -256,16 +256,17 @@ footer {
     }
     .main-p {
         flex-direction: column;
-        height: 100%;
+        height: 130%;
     }
     .main-o1 {
         width: 90%;
-        height: 80%;
+        height: calc(100%/2 - 50px);
         margin-top: 25px;
     }
     .main-p1 {
         margin: 10px;
-        height: 500px;
+        height: fit-content;
+        margin-top: 10px;
     }
     .main-p1 h3 {
         font-size: 37px;
