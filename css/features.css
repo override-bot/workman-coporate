@@ -110,24 +110,28 @@ a {
 
 @media only screen and (max-device-width:768px) {
     .near-txt h3 {
-        font-size: 20px;
+        font-size: 23px;
     }
     .near-txt h5 {
-        font-size: 18px;
+        font-size: 21px;
     }
     .near-txt {
         text-align: left;
     }
     .workman {
-        color: white;
+        color: rgba(34, 14, 150, 0.863);
         margin-left: 15px;
         font-size: xx-large;
         font-weight: 500;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .header {
-        background-color: rgba(34, 14, 150, 0.863);
+        background-color: white;
         width: 100%;
+        margin: 0;
         height: 70px;
+    }
+    a {
+        color: rgba(34, 14, 150, 0.863);
     }
 }
