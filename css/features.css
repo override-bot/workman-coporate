@@ -112,6 +112,9 @@ a {
     .near-txt h5 {
         font-size: 18px;
     }
+    .near-txt {
+        text-align: left;
+    }
     .workman {
         color: white;
         margin-left: 15px;
