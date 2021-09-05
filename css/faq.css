@@ -107,6 +107,8 @@ a {
     .accord {
         margin-top: 10px;
         margin-bottom: 20px;
+        width: 97%;
+        margin: 25px auto;
     }
     .header {
         height: 25%;
