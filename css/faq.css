@@ -86,6 +86,10 @@ a {
     }
     .accordion {
         width: 100%;
+        font-size: 34px;
+    }
+    .panel {
+        font-size: 31;
     }
     .add {
         font-size: xx-large;
