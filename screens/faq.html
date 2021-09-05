@@ -1,0 +1,107 @@
+<html>
+
+<head>
+    <title>FAQs</title>
+    <script src="https://kit.fontawesome.com/f2301fb50d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/faq.css">
+</head>
+
+
+<body>
+    <div class="header">
+        <div class="workman">
+            <a href="../index.html">
+                <p>workman</p>
+            </a>
+
+        </div>
+        <div class="fa">
+            <p>FAQs</p>
+        </div>
+        <p class="fft" style="text-align: center; color:white;margin-top:3px;">
+            Answers to frequently asked questions about workman and what we do.
+        </p>
+    </div>
+
+    <div class="accord">
+        <button class="accordion">
+           <span class="quest">Lorem ipsum dolor sit amet?</span> <span class="add"><i class="fas fa-angle-down"></i></span>
+        </button>
+
+        <div class="panel">
+            <hr/>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis impedit deserunt nobis corrupti labore reiciendis repellendus adipisci, officia voluptatem corporis ut culpa? Culpa consectetur laboriosam, velit tempore voluptas praesentium
+                distinctio.
+
+            </p>
+        </div>
+    </div>
+    <div class="accord">
+        <button class="accordion">
+           <span class="quest">Lorem ipsum dolor sit amet?</span> <span class="add"><i class="fas fa-angle-down"></i></span>
+        </button>
+        <div class="panel">
+            <hr/>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis impedit deserunt nobis corrupti labore reiciendis repellendus adipisci, officia voluptatem corporis ut culpa? Culpa consectetur laboriosam, velit tempore voluptas praesentium
+                distinctio.
+
+            </p>
+        </div>
+    </div>
+    <div class="accord">
+        <button class="accordion">
+           <span class="quest">Lorem ipsum dolor sit amet?</span> <span class="add"><i class="fas fa-angle-down"></i></span>
+        </button>
+        <div class="panel">
+            <hr/>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis impedit deserunt nobis corrupti labore reiciendis repellendus adipisci, officia voluptatem corporis ut culpa? Culpa consectetur laboriosam, velit tempore voluptas praesentium
+                distinctio.
+
+            </p>
+        </div>
+    </div>
+    <div class="accord">
+        <button class="accordion">
+           <span class="quest">Lorem ipsum dolor sit amet?</span> <span class="add"><i class="fas fa-angle-down"></i></span>
+        </button>
+        <div class="panel">
+            <hr/>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis impedit deserunt nobis corrupti labore reiciendis repellendus adipisci, officia voluptatem corporis ut culpa? Culpa consectetur laboriosam, velit tempore voluptas praesentium
+                distinctio.
+
+            </p>
+        </div>
+    </div>
+    <div class="accord">
+        <button class="accordion">
+           <span class="quest">Lorem ipsum dolor sit amet?</span> <span class="add"><i class="fas fa-angle-down"></i></span>
+        </button>
+        <div class="panel">
+            <hr/>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis impedit deserunt nobis corrupti labore reiciendis repellendus adipisci, officia voluptatem corporis ut culpa? Culpa consectetur laboriosam, velit tempore voluptas praesentium
+                distinctio.
+
+            </p>
+        </div>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName('accordion');
+        var i;
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+
+                var panel = this.nextElementSibling;
+                if (panel.style.display == "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            })
+        }
+    </script>
+
+</body>
+
+</html>
