@@ -43,9 +43,10 @@ body {
 }
 
 .header {
-    color: rgba(34, 14, 150, 0.863);
+    color: rgba(0, 45, 104, 255);
     margin-left: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
 }
 
 .hire {
@@ -68,15 +69,15 @@ body {
     height: 100%;
     width: 100%;
     border-radius: 5px;
-    background-color: rgba(34, 14, 150, 0.863);
-    border: 1px solid rgba(34, 14, 150, 0.863);
+    background-color: rgba(0, 45, 104, 255);
+    border: 1px solid rgba(0, 45, 104, 255);
     color: white;
 }
 
 .nav {
     display: flex;
     color: black;
-    margin-left: 70%;
+    margin-left: 50%;
 }
 
 .nav-link {
@@ -160,7 +161,7 @@ a {
     border-radius: 50%;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     margin-top: 15px;
-    background-color: rgba(34, 14, 150, 0.863);
+    background-color: rgba(0, 45, 104, 255);
     text-align: center;
 }
 
