@@ -129,7 +129,7 @@ a {
         background-color: rgba(0, 45, 104, 255);
         width: 100%;
         margin: 0;
-        height: 110px;
+        height: 115px;
     }
     .main-div {
         flex-direction: column !important;

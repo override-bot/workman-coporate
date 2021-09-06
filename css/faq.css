@@ -96,7 +96,7 @@ a {
         font-size: xx-large;
     }
     .workman {
-        font-size: x-large;
+        font-size: 48px;
     }
     .fft {
         font-size: 17px;
@@ -115,8 +115,8 @@ a {
         height: 25%;
     }
     img {
-        height: 100px;
-        width: 100px;
-        margin-top: 5px !important;
+        height: 110px;
+        width: 110px;
+        margin-top: 12px !important;
     }
 }
