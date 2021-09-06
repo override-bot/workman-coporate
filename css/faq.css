@@ -114,4 +114,9 @@ a {
     .header {
         height: 25%;
     }
+    img {
+        height: 100px;
+        width: 100px;
+        margin-top: 5px !important;
+    }
 }

@@ -299,7 +299,7 @@ footer {
     .button {
         height: 90px;
         width: 190px;
-        background-color: rgba(34, 14, 150, 0.863);
+        background-color: rgba(0, 45, 104, 255);
         margin-left: 15px;
         border-radius: 5px;
         color: white;
@@ -426,7 +426,7 @@ footer {
         font-size: 45px;
     }
     .nav {
-        margin-left: 48%;
+        margin-left: 35%;
     }
     .nav-link {
         font-size: 25px;
@@ -440,5 +440,9 @@ footer {
     }
     .nav-tx {
         display: none;
+    }
+    img {
+        height: 100px;
+        width: 100px;
     }
 }
