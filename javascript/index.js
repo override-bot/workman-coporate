@@ -27,3 +27,7 @@ function sendMessage() {
         });
     }
 }
+
+function openApp() {
+    window.location.href = "https://wokman.page.link/76UZ";
+}
