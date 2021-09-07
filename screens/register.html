@@ -7,6 +7,7 @@
 
 <body>
     <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-storage.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-firestore.js"></script>
     <script src="../javascript/index.js"></script>
@@ -22,7 +23,7 @@
         </div>
         <div>
             <label class="custom-file-upload">
-                <input type="file" accept="image/*"/>
+                <input type="file" accept="image/*" id="file"/>
                 Add Photo
             </label>
         </div>
@@ -52,7 +53,7 @@
         <div class="form-flex">
             <div class="input"> <label for="occupation">occupation
             <input type="text" placeholder="welder" id="occupation" /></label></div>
-            <div class="button"><button><h3>Register &#x2192;</h3></button></div>
+            <div class="button"><button onclick="signUp()"><h3>Register &#x2192;</h3></button></div>
         </div>
     </div>
 </body>

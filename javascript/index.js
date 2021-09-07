@@ -10,6 +10,54 @@ var firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 var db = firebase.firestore();
+//upload image
+var storageRef = firebase.storage().ref();
+var userRef = storageRef.child('users')
+
+
+
+//create account
+function signUp() {
+    let email = document.getElementById('email').value
+    let password = document.getElementById('password').value
+    let first = document.getElementById('first').value
+    let second = document.getElementById('second').value
+    let location = document.getElementById('location').value
+    let number = document.getElementById('number').value
+    let occupation = document.getElementById('occupation').value
+    firebase.auth().createUserWithEmailAndPassword(email, password)
+        .then((userCredential) => {
+            var user = userCredential.user
+            alert(user.uid)
+            let fileId = document.getElementById('file');
+            let file = fileId.files[0];
+            userRef.child(user.uid).put(file).then((snapshot) => {
+                console.log(snapshot)
+                snapshot.ref.getDownloadURL().then((downloadURL) => {
+                    console.log(downloadURL)
+                    db.collection('providers').doc(user.uid).set({
+                        "username": first + " " + second,
+                        "location": location,
+                        "phoneNumber": number,
+                        "email": email,
+                        "occupation": occupation,
+                        "imageurl": downloadURL,
+                        "rating": 1,
+                        "raters": 1,
+                        "verificationStatus": "Not verified",
+                        "walletBalance": 200,
+                        "availability": "available",
+
+                    }).catch((error) => {
+                        console.log(error)
+                    })
+                })
+            })
+        }).catch((error) => {
+            alert(error.message)
+        })
+    window.location.replace("https://override-bot.github.io/workman-coporate")
+}
 //send message
 function sendMessage() {
     var email = document.getElementById('email').value;
