@@ -1,11 +1,11 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyDp_exrotiQfRZVKzSlk2oM1Ph_Qg7tuFQ",
-    authDomain: "workman-41e76.firebaseapp.com",
-    projectId: "workman-41e76",
-    storageBucket: "workman-41e76.appspot.com",
-    messagingSenderId: "833494664031",
-    appId: "1:833494664031:web:6cce8d8099ab8980de6cea",
-    measurementId: "G-15M24BQD3C"
+    apiKey: "AIzaSyAe4SU0m-pyATSn9MKW8hZxJD_ZzHp-eCM",
+    authDomain: "workjeje-dcd73.firebaseapp.com",
+    projectId: "workjeje-dcd73",
+    storageBucket: "workjeje-dcd73.appspot.com",
+    messagingSenderId: "55701912183",
+    appId: "1:55701912183:web:bdeb3c825a4c321f8ba472",
+    measurementId: "G-FDSN74MTY7"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
