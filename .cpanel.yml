@@ -2,8 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/workobosi/public_html
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp -R assets $DEPLOYPATH
-    - /bin/cp -R screens $DEPLOYPATH
-    - /bin/cp -R css $DEPLOYPATH
+    - cp -r * $DEPLOYPATH
+    
     
