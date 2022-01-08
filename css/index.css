@@ -1156,7 +1156,7 @@ a {
     position: static;
     width: 89px;
     height: 12px;
-    left: 51px;
+    left: 58px;
     top: 17px;
     font-family: Inter;
     font-style: normal;
@@ -1373,5 +1373,14 @@ a {
     font-size: 14px;
     line-height: 17px;
     /* identical to box height */
+    color: #FFFFFF;
+}
+
+.icn {
+    position: absolute;
+    left: 12.67%;
+    right: 14.93%;
+    top: 12.56%;
+    bottom: 12.5%;
     color: #FFFFFF;
 }
