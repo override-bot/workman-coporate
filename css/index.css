@@ -284,7 +284,7 @@ a {
 
 .dots1 {
     position: absolute;
-    width: 257px;
+    width: 267px;
     height: 270px;
     left: 110px;
     top: 110px;
@@ -293,7 +293,7 @@ a {
 
 .dots2 {
     position: absolute;
-    width: 257px;
+    width: 267px;
     height: 268px;
     left: 161px;
     top: 153px;
@@ -315,7 +315,7 @@ a {
 
 .work15 {
     position: absolute;
-    width: 111px;
+    width: 121px;
     height: 192px;
     left: 40px;
     top: 11px;
@@ -325,7 +325,7 @@ a {
 
 .work7 {
     position: absolute;
-    width: 242px;
+    width: 252px;
     height: 174px;
     left: 164px;
     top: 11px;
@@ -335,7 +335,7 @@ a {
 
 .tech {
     position: absolute;
-    width: 141px;
+    width: 151px;
     height: 180px;
     left: 40px;
     top: 212px;
@@ -345,7 +345,7 @@ a {
 
 .work2 {
     position: absolute;
-    width: 213px;
+    width: 223px;
     height: 189px;
     left: 193px;
     top: 203px;
@@ -535,7 +535,7 @@ a {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 11px 17px;
+    padding: 11px;
     position: absolute;
     width: 111px;
     height: 20px;
@@ -543,22 +543,18 @@ a {
     top: 1362px;
     background: #197FAA;
     border-radius: 5px;
+    text-align: center;
 }
 
 .ssft {
-    position: static;
-    width: 77px;
+    width: 111px;
     height: 12px;
-    left: 17px;
     top: 15px;
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
-    font-size: 11px;
+    font-size: 13px;
     line-height: 12px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     color: #FFFFFF;
     /* Inside auto layout */
 }
@@ -1012,7 +1008,7 @@ a {
     position: absolute;
     width: 327px;
     height: 29px;
-    left: 100px;
+    left: 60px;
     top: 120px;
     font-family: Inter;
     font-style: normal;
@@ -1027,7 +1023,7 @@ a {
     position: absolute;
     width: 382px;
     height: 34px;
-    left: 100px;
+    left: 60px;
     top: 170px;
     font-family: Inter;
     font-style: normal;
@@ -1041,7 +1037,7 @@ a {
     position: absolute;
     width: 382px;
     height: 29px;
-    left: 100px;
+    left: 60px;
     top: 270px;
     font-family: Inter;
     font-style: normal;
@@ -1056,7 +1052,7 @@ a {
     position: absolute;
     width: 371px;
     height: 34px;
-    left: 100px;
+    left: 60px;
     top: 320px;
     font-family: Inter;
     font-style: normal;
@@ -1070,7 +1066,7 @@ a {
     position: absolute;
     width: 427px;
     height: 324px;
-    left: 476px;
+    left: 486px;
     top: 100px;
     background-image: url(../assets/Workjeje/work20.jpg);
     border-radius: 5px;
@@ -1090,7 +1086,7 @@ a {
     position: absolute;
     left: 10%;
     right: 10%;
-    height: 40%;
+    height: 50%;
     top: -25%;
     background: #197FAA;
     border-radius: 20px;
@@ -1101,7 +1097,7 @@ a {
     position: absolute;
     left: 67.9%;
     right: 5.72%;
-    top: -33.04%;
+    top: 0%;
     bottom: 0;
     background-size: 100% 100%;
     background-image: url(../assets/Workjeje/image\ 4.png);
