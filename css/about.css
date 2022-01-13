@@ -1,0 +1,768 @@
+body {
+    background-color: white;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.r19 {
+    position: absolute;
+    width: 100%;
+    height: 61px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+.f1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 89px;
+    height: 38px;
+    left: 96px;
+    top: 12px;
+}
+
+.im1 {
+    position: static;
+    width: 38px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    background-size: 100% 100%;
+    background-image: url(../assets/wj_final.png);
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.wkj {
+    position: static;
+    width: 51px;
+    height: 15px;
+    left: 38px;
+    top: 11.5px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #197FAA;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.fts a {
+    text-decoration: none;
+    color: #197FAA;
+}
+
+.abt a {
+    text-decoration: none;
+    color: #197FAA;
+}
+
+.faq a {
+    text-decoration: none;
+    color: #197FAA;
+}
+
+.faq {
+    position: absolute;
+    width: 31px;
+    height: 15px;
+    left: 374px;
+    top: 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: rgba(25, 127, 170, 0.7);
+}
+
+.abt {
+    position: absolute;
+    width: 36px;
+    height: 15px;
+    left: 224px;
+    top: 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #197FAA;
+}
+
+.fts {
+    position: absolute;
+    width: 51px;
+    height: 15px;
+    left: 291px;
+    top: 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: rgba(25, 127, 170, 0.7);
+}
+
+.f2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 11px 11px;
+    position: absolute;
+    width: 111px;
+    height: 18px;
+    left: 980px;
+    top: 14px;
+    background: #197FAA;
+    border-radius: 5px;
+}
+
+.ssup {
+    position: static;
+    width: 77px;
+    height: 12px;
+    left: 17px;
+    top: 11px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.ease {
+    position: absolute;
+    height: 44px;
+    top: 101px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #1B1B3A;
+}
+
+.r28 {
+    position: absolute;
+    width: 891px;
+    height: 428px;
+    top: 150px;
+    background: rgba(223, 242, 216, 0.5);
+    border-radius: 12px;
+}
+
+.main1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 1152px;
+}
+
+.subease {
+    position: absolute;
+    width: 729px;
+    height: 244px;
+    left: 80px;
+    top: 93px;
+    /* Text */
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    color: #1B1B3A;
+}
+
+.standard {
+    position: absolute;
+    height: 44px;
+    top: 644px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #1B1B3A;
+}
+
+.substandard {
+    position: absolute;
+    height: 20px;
+    top: 694px;
+    /* Text */
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    color: #1B1B3A;
+}
+
+.r29 {
+    position: absolute;
+    width: 269px;
+    height: 231px;
+    top: 740px;
+    left: 130px;
+    background: rgba(223, 242, 216, 0.5);
+    border-radius: 5px;
+}
+
+.r34 {
+    position: absolute;
+    width: 269px;
+    height: 231px;
+    left: 450px;
+    top: 740px;
+    background: rgba(223, 242, 216, 0.5);
+    border-radius: 5px;
+}
+
+.r37 {
+    position: absolute;
+    width: 269px;
+    height: 231px;
+    left: 770px;
+    top: 740px;
+    background: rgba(223, 242, 216, 0.5);
+    border-radius: 5px;
+}
+
+.off {
+    position: absolute;
+    width: 174px;
+    height: 93px;
+    left: 47px;
+    top: 67px;
+    /* Text */
+    font-family: Inter;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+    color: #1B1B3A;
+}
+
+.how {
+    position: absolute;
+    width: 359px;
+    height: 48px;
+    top: 1026px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #1B1B3A;
+}
+
+.subhow {
+    position: absolute;
+    width: 422px;
+    height: 53px;
+    top: 1094px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #1B1B3A;
+}
+
+.r20 {
+    position: absolute;
+    width: 442px;
+    height: 400px;
+    left: 600px;
+    top: 1194px;
+    background-size: 100% 100%;
+    background-image: url(../assets/frank-web1aa.jpg);
+    border-radius: 10px;
+}
+
+.as {
+    position: absolute;
+    width: 247px;
+    height: 34px;
+    top: 1319px;
+    left: 200px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1B1B3A;
+}
+
+.subas {
+    position: absolute;
+    width: 296px;
+    height: 99px;
+    left: 200px;
+    top: 1344px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1B1B3A;
+}
+
+.r21 {
+    position: absolute;
+    width: 422px;
+    height: 400px;
+    left: 142px;
+    top: 1644.5px;
+    background: url(../assets/Workjeje/work7.jpg);
+    border-radius: 5px;
+}
+
+.asc {
+    position: absolute;
+    width: 169px;
+    height: 34px;
+    left: 642px;
+    top: 1794px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1B1B3A;
+}
+
+.f42 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9.72171px 15.0245px;
+    position: absolute;
+    width: 141.41px;
+    height: 40.65px;
+    left: 642px;
+    top: 1894px;
+    border: 0.883792px solid #1B1B3A;
+    box-sizing: border-box;
+    border-radius: 4.41896px;
+}
+
+.f52 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9.72171px 15.0245px;
+    position: absolute;
+    width: 147.59px;
+    height: 40.65px;
+    left: 800px;
+    top: 1894px;
+    border: 0.883792px solid #1B1B3A;
+    box-sizing: border-box;
+    border-radius: 4.41896px;
+}
+
+.subasc {
+    position: absolute;
+    width: 350px;
+    height: 99px;
+    left: 642px;
+    top: 1824px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1B1B3A;
+}
+
+.f4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9.72171px 15.0245px;
+    position: absolute;
+    width: 141.41px;
+    height: 40.65px;
+    left: 200px;
+    top: 1450px;
+    border: 0.883792px solid #1B1B3A;
+    box-sizing: border-box;
+    border-radius: 4.41896px;
+}
+
+.f5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9.72171px 15.0245px;
+    position: absolute;
+    width: 147.59px;
+    height: 40.65px;
+    left: 360px;
+    top: 1450px;
+    border: 0.883792px solid #1B1B3A;
+    box-sizing: border-box;
+    border-radius: 4.41896px;
+}
+
+.getps {
+    position: static;
+    width: 89px;
+    height: 12px;
+    left: 47px;
+    top: 17.5px;
+    bottom: 12.5%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: #1B1B3A;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.ps {
+    position: absolute;
+    left: 12.67%;
+    right: 15.33%;
+    top: 17.5px;
+    bottom: 12.5%;
+}
+
+.r13 {
+    position: absolute;
+    width: 1152px;
+    height: 448px;
+    left: 30px;
+    top: 2350px;
+    background: #1B1B3A;
+}
+
+.r18 {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: -25%;
+    height: 50%;
+    width: 80%;
+    background: #197FAA;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.rtphone {
+    position: absolute;
+    left: 67.9%;
+    right: 5.72%;
+    top: 0%;
+    bottom: 0;
+    background-size: 100% 100%;
+    background-image: url(../assets/Workjeje/image\ 4.png);
+    /* transform: rotate(14.94deg);*/
+}
+
+.dld {
+    position: absolute;
+    left: 11.53%;
+    right: 43.6%;
+    top: 20.33%;
+    bottom: 46.58%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.f30 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 17px;
+    position: absolute;
+    left: 12.33%;
+    right: 71.06%;
+    top: 74.18%;
+    bottom: 18.66%;
+    background: #1B1B3A;
+    border-radius: 5px;
+}
+
+.f31 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 17px;
+    position: absolute;
+    left: 32.17%;
+    right: 50.37%;
+    top: 74.18%;
+    bottom: 18.66%;
+    background: #1B1B3A;
+    border-radius: 5px;
+}
+
+.gtit {
+    position: static;
+    width: 89px;
+    height: 12px;
+    left: 58px;
+    top: 17px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.btmwkj {
+    position: absolute;
+    height: 20.92px;
+    left: 150px;
+    top: 218.04px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.7368px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.qkl {
+    position: absolute;
+    height: 19px;
+    left: 354px;
+    top: 211px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.abt {
+    position: absolute;
+    height: 16px;
+    left: 354px;
+    top: 248px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+    color: #FFFFFF !important;
+}
+
+.abt a {
+    color: #FFFFFF;
+}
+
+.fts {
+    position: absolute;
+    height: 16px;
+    left: 354px;
+    top: 281px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.fts a {
+    color: #FFFFFF;
+}
+
+.faq {
+    position: absolute;
+    height: 16px;
+    left: 354px;
+    top: 314px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.faq a {
+    color: #FFFFFF;
+}
+
+.spv {
+    position: absolute;
+    height: 19px;
+    left: 548px;
+    top: 207px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.cts {
+    position: absolute;
+    height: 16px;
+    left: 548px;
+    top: 242px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.cts a {
+    color: #FFFFFF;
+}
+
+.pvp {
+    position: absolute;
+    height: 16px;
+    left: 548px;
+    top: 273px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.pvp a {
+    color: #FFFFFF;
+}
+
+.tmu {
+    position: absolute;
+    height: 16px;
+    left: 548px;
+    top: 304px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.tmu a {
+    color: #FFFFFF;
+}
+
+.dda {
+    position: absolute;
+    height: 16px;
+    left: 548px;
+    top: 335px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.dda a {
+    color: #FFFFFF;
+}
+
+.fus {
+    position: absolute;
+    height: 19px;
+    left: 751px;
+    top: 211px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.stp {
+    position: absolute;
+    height: 17px;
+    left: 523px;
+    top: 411px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.icn {
+    position: absolute;
+    left: 12.67%;
+    right: 14.93%;
+    top: 12.56%;
+    bottom: 12.5%;
+    color: #FFFFFF;
+}
