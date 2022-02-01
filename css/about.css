@@ -13,6 +13,10 @@ body {
     background: #FFFFFF;
 }
 
+a {
+    color: #197FAA;
+}
+
 .f1 {
     display: flex;
     flex-direction: row;
@@ -765,4 +769,84 @@ a {
     top: 12.56%;
     bottom: 12.5%;
     color: #FFFFFF;
+}
+
+.nav-link {
+    position: absolute;
+    width: 36px;
+    height: 15px;
+    left: 270px;
+    top: 27px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #197FAA;
+}
+
+.nav-link2 {
+    position: absolute;
+    width: 51px;
+    height: 15px;
+    left: 340px;
+    top: 27px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #197FAA;
+}
+
+.nav-link3 {
+    position: absolute;
+    width: 31px;
+    height: 15px;
+    left: 444px;
+    top: 27px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #197FAA;
+}
+
+.logo {
+    position: static;
+    width: 38px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.head {
+    display: flex;
+    position: absolute;
+    width: 1152px;
+    height: 61px;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+.signup {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 11px 17px;
+    position: absolute;
+    width: 100px;
+    height: 18px;
+    left: 980px;
+    top: 14px;
+    /* Primary Color */
+    background-color: #197FAA;
+    border-radius: 5px;
 }

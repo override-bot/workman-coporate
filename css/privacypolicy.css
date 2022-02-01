@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    width: 1152px;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -15,7 +15,6 @@ body {
 
 a {
     color: #197FAA;
-    text-decoration: none;
 }
 
 .f1 {
@@ -203,52 +202,79 @@ a {
     color: #197FAA;
 }
 
-.ctus {
-    position: absolute;
-    width: 254px;
-    height: 58px;
-    left: 150px;
-    top: 164px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 58px;
-    /* identical to box height */
-    color: rgba(27, 27, 58, 0.8);
+.logo {
+    position: static;
+    width: 38px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
 }
 
-.ctusmin {
+.head {
+    display: flex;
     position: absolute;
-    width: 229px;
-    height: 17px;
-    left: 154px;
-    top: 232px;
+    width: 1152px;
+    height: 61px;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+.signup {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 11px 17px;
+    position: absolute;
+    width: 100px;
+    height: 18px;
+    left: 980px;
+    top: 14px;
+    /* Primary Color */
+    background-color: #197FAA;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ppolicy {
+    position: absolute;
+    width: 148px;
+    height: 14px;
+    left: 502px;
+    top: 134px;
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-    color: rgba(27, 27, 58, 0.5);
+    font-size: 18px;
+    line-height: 22px;
+    color: #1B1B3A;
 }
 
-.r26 {
+.subppc {
     position: absolute;
-    width: 405px;
-    height: 454px;
-    left: 636px;
-    top: 96px;
-    background: rgba(255, 255, 255, 0.5);
-    box-shadow: -2px -4px 10px rgba(224, 220, 220, 0.25), 2px 4px 10px rgba(224, 220, 220, 0.25);
-    border-radius: 10px;
+    width: 952px;
+    height: 2332px;
+    left: 102px;
+    top: 186px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    color: #1B1B3A;
 }
 
 .r13 {
     position: absolute;
     width: 1152px;
     height: 448px;
-    top: 800px;
+    top: 2650px;
     background: #1B1B3A;
 }
 
@@ -261,6 +287,13 @@ a {
     width: 80%;
     background: #197FAA;
     border-radius: 20px;
+}
+
+.main1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .rtphone {
@@ -537,159 +570,4 @@ a {
     top: 12.56%;
     bottom: 12.5%;
     color: #FFFFFF;
-}
-
-.email {
-    position: absolute;
-    width: 41px;
-    height: 16px;
-    top: 40px;
-    left: 30px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    color: rgba(27, 27, 58, 0.8);
-}
-
-.emailinput {
-    position: absolute;
-    width: 313px;
-    height: 20px;
-    left: 30px;
-    top: 66px;
-    /* Secondary color */
-    border-bottom: 0.5px solid rgba(27, 27, 58, 0.8);
-    border-top: none;
-    border-right: none;
-    border-left: none;
-}
-
-input:focus {
-    border-bottom: 0.5px solid rgba(27, 27, 58, 0.8);
-    border-top: none;
-    border-right: none;
-    border-left: none;
-}
-
-.name {
-    position: absolute;
-    width: 45px;
-    height: 16px;
-    left: 30px;
-    top: 116px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    color: rgba(27, 27, 58, 0.8);
-}
-
-.nameinput {
-    position: absolute;
-    width: 313px;
-    height: 20px;
-    left: 30px;
-    top: 136px;
-    /* Secondary color */
-    border-bottom: 0.5px solid rgba(27, 27, 58, 0.8);
-    border-top: none;
-    border-right: none;
-    border-left: none;
-}
-
-.subject {
-    position: absolute;
-    width: 58px;
-    height: 17px;
-    left: 30px;
-    top: 196px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-    color: rgba(27, 27, 58, 0.8);
-}
-
-.subjectinput {
-    position: absolute;
-    width: 313px;
-    height: 20px;
-    left: 30px;
-    top: 216px;
-    /* Secondary color */
-    border-bottom: 0.5px solid rgba(27, 27, 58, 0.8);
-    border-top: none;
-    border-right: none;
-    border-left: none;
-}
-
-.message {
-    position: absolute;
-    width: 69px;
-    height: 17px;
-    left: 30px;
-    top: 276px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-    color: rgba(27, 27, 58, 0.8);
-}
-
-.messageinput {
-    position: absolute;
-    width: 313px;
-    height: 40px;
-    left: 30px;
-    top: 296px;
-    /* Secondary color */
-    border-bottom: 0.5px solid rgba(27, 27, 58, 0.8);
-    border-top: none;
-    border-right: none;
-    border-left: none;
-}
-
-.sendbtn {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 11px 17px;
-    position: absolute;
-    width: 106px;
-    height: 34px;
-    left: 30px;
-    top: 356px;
-    background: #197FAA;
-    border-radius: 5px;
-    border: 1px solid #197FAA;
-}
-
-.sendbtn:hover {
-    background: #083447;
-    border-radius: 5px;
-    border: 1px solid #083447;
-}
-
-.sendbtntxt {
-    position: static;
-    height: 12px;
-    top: 11px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 10px;
-    line-height: 12px;
-    color: #FFFFFF;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 10px;
 }
