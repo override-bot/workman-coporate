@@ -1368,3 +1368,7 @@ a {
     bottom: 12.5%;
     color: #FFFFFF;
 }
+
+.menu {
+    display: none;
+}
