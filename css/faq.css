@@ -1,17 +1,246 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
     width: 95%;
-    padding: 0px;
     margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.header {
-    background-color: rgba(0, 45, 104, 255);
+.r19 {
+    position: absolute;
     width: 100%;
-    height: 250px;
-    margin-bottom: 15px;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+    height: 61px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+a {
+    color: #197FAA;
+}
+
+.f1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 89px;
+    height: 38px;
+    left: 96px;
+    top: 12px;
+}
+
+.im1 {
+    position: static;
+    width: 38px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    background-size: 100% 100%;
+    background-image: url(../assets/wj_final.png);
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.wkj {
+    position: static;
+    width: 51px;
+    height: 15px;
+    left: 38px;
+    top: 11.5px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #197FAA;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.fts a {
+    text-decoration: none;
+    color: #197FAA;
+}
+
+.abt a {
+    text-decoration: none;
+    color: #197FAA;
+}
+
+.faq a {
+    text-decoration: none;
+    color: #197FAA;
+}
+
+.faq {
+    position: absolute;
+    width: 31px;
+    height: 15px;
+    left: 374px;
+    top: 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: rgba(25, 127, 170, 0.7);
+}
+
+.abt {
+    position: absolute;
+    width: 36px;
+    height: 15px;
+    left: 224px;
+    top: 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #197FAA;
+}
+
+.fts {
+    position: absolute;
+    width: 51px;
+    height: 15px;
+    left: 291px;
+    top: 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: rgba(25, 127, 170, 0.7);
+}
+
+.f2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 11px 11px;
+    position: absolute;
+    width: 111px;
+    height: 18px;
+    left: 980px;
+    top: 14px;
+    background: #197FAA;
+    border-radius: 5px;
+}
+
+.ssup {
+    position: static;
+    width: 77px;
+    height: 12px;
+    left: 17px;
+    top: 11px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.nav-link {
+    position: absolute;
+    width: 36px;
+    height: 15px;
+    left: 270px;
+    top: 27px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #197FAA;
+}
+
+.nav-link2 {
+    position: absolute;
+    width: 51px;
+    height: 15px;
+    left: 340px;
+    top: 27px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #197FAA;
+}
+
+.nav-link3 {
+    position: absolute;
+    width: 31px;
+    height: 15px;
+    left: 444px;
+    top: 27px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #197FAA;
+}
+
+.logo {
+    position: static;
+    width: 38px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.head {
+    display: flex;
+    position: absolute;
+    width: 1152px;
+    height: 61px;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+.signup {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 11px 17px;
+    position: absolute;
+    width: 100px;
+    height: 18px;
+    left: 980px;
+    top: 14px;
+    /* Primary Color */
+    background-color: #197FAA;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .fa {
@@ -34,89 +263,94 @@ a {
     color: white;
 }
 
-.accordion {
-    background-color: white;
-    color: #444;
-    padding: 20px;
+.frequent {
+    position: absolute;
     width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.6s;
+    top: 120px;
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
     font-weight: 600;
-    cursor: pointer;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    color: #1B1B3A;
 }
 
-.active,
-.accordion:hover {
-    background-color: white;
-    border-width: 90%;
-    color: rgba(0, 45, 104, 255);
+.subfrequent {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 150px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: rgba(27, 27, 58, 0.8);
 }
 
 .accord {
-    width: 100%;
-    height: fit-content;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    font-weight: 500;
-    color: #444;
+    position: absolute;
+    top: 200px;
+    width: 90%;
+    left: 5%;
 }
+
+.accordion {
+    background-color: white;
+    color: rgba(27, 27, 58, 0.8);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    transition: 0.4s;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+.active {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: none;
+}
+
+
+/* Style the accordion panel. Note: hidden by default */
 
 .panel {
     padding: 0 18px;
     background-color: white;
-    display: none;
+    max-height: 0;
     overflow: hidden;
-    margin: 0 auto;
-    width: 95%;
+    transition: max-height 0.2s ease-out;
+    font-size: 18px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: none;
 }
 
-.add {
+.accordion:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
     float: right;
+    margin-left: 5px;
 }
 
-.quest {
-    font-size: 21px;
-}
-
-@media only screen and (max-device-width:768px) {
-    .quest {
-        font-size: xx-large;
-    }
-    .accordion {
-        width: 100%;
-        font-size: 34px;
-    }
-    .panel {
-        font-size: 31;
-    }
-    .add {
-        font-size: xx-large;
-    }
-    .workman {
-        font-size: 48px;
-    }
-    .fft {
-        font-size: 17px;
-        font-weight: 500;
-    }
-    body {
-        width: 100%;
-    }
-    .accord {
-        margin-top: 10px;
-        margin-bottom: 20px;
-        width: 97%;
-        margin: 25px auto;
-    }
-    .header {
-        height: 25%;
-    }
-    img {
-        height: 110px;
-        width: 110px;
-        margin-top: 12px !important;
-    }
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
 }

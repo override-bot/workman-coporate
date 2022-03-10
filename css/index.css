@@ -187,6 +187,8 @@ a {
     border: 1px solid #1B1B3A;
     box-sizing: border-box;
     border-radius: 5px;
+    background-image: url(../assets/Frame4.jpg);
+    background-size: 100% 100%;
 }
 
 .getps {
@@ -231,6 +233,8 @@ a {
     border: 1px solid #1B1B3A;
     box-sizing: border-box;
     border-radius: 5px;
+    background-image: url(../assets/Frame5.jpg);
+    background-size: 100% 100%;
 }
 
 .ssup {
@@ -284,20 +288,13 @@ a {
 
 .dots1 {
     position: absolute;
-    width: 267px;
-    height: 270px;
+    width: 400px;
+    height: 400px;
     left: 110px;
-    top: 110px;
+    top: 120px;
     background: rgba(223, 242, 216, 0.5);
-}
-
-.dots2 {
-    position: absolute;
-    width: 267px;
-    height: 268px;
-    left: 161px;
-    top: 153px;
-    background: rgba(25, 127, 170, 0.5);
+    background-image: url(../assets/Frame57x3.jpg);
+    background-size: 100% 100%;
 }
 
 .main {
@@ -311,46 +308,6 @@ a {
 .dots {
     flex: 1 1 auto;
     position: relative;
-}
-
-.work15 {
-    position: absolute;
-    width: 121px;
-    height: 192px;
-    left: 40px;
-    top: 11px;
-    background-image: url(../assets/Workjeje/work15.jpg);
-    background-size: 100% 100%;
-}
-
-.work7 {
-    position: absolute;
-    width: 252px;
-    height: 174px;
-    left: 164px;
-    top: 11px;
-    background-size: 100% 100%;
-    background-image: url(../assets/Workjeje/work7.jpg);
-}
-
-.tech {
-    position: absolute;
-    width: 151px;
-    height: 180px;
-    left: 40px;
-    top: 212px;
-    background-image: url(../assets/Workjeje/work11.jpg);
-    background-size: 100% 100%;
-}
-
-.work2 {
-    position: absolute;
-    width: 223px;
-    height: 189px;
-    left: 193px;
-    top: 203px;
-    background-size: 100% 100%;
-    background-image: url(../assets/Workjeje/Work2.jpg);
 }
 
 .main2 {
