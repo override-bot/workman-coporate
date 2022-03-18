@@ -113,8 +113,12 @@
                     Delivery Services
                 </div>
             </div>
-        </div>
+            <button id="frame18"></button>
 
+        </div>
+        <div id="frame61">
+            <button id="close"></button>
+        </div>
 
 
     </div>
@@ -123,7 +127,7 @@
             Earn money using your Unique skills.
         </div>
         <div class="subearn">
-            We connect you as a service provider to a world of opportunities. Join work Jeje today and enjoy amazing opportunities, we help connect you to a wider audeince of individuals who are in need of the services you provide while you get paid
+            Workjeje connect you as a service provider to a world of opportunities.<br/><br/>Join work Jeje today and enjoy express connection to a wider audience of individuals who are in need of the services you provide and get paid for a job well done.
         </div>
         <div class="rhomb1"></div>
         <div class="rhomb2"></div>
@@ -256,9 +260,9 @@
         </div>
         <div class="btmwkj">workjeje</div>
         <div class="qkl">Quick links</div>
-        <div class="abt"><a href="./screens/features.html"> About</a></div>
+        <div class="abt"><a href="./screens/about.html"> About</a></div>
         <div class="fts"><a href="./screens/features.html"> Features</a></div>
-        <div class="faq"><a href="./screens/features.html"> FAQs</a></div>
+        <div class="faq"><a href="./screens/faq.html"> FAQs</a></div>
         <div class="spv"> Service provider</div>
         <div class="cts"><a href="./screens/contactForm.html"> Contact us</a></div>
         <div class="pvp"><a href="./screens/privacy_policy.html"> Privacy policy</a></div>
@@ -267,6 +271,24 @@
         <div class="fus">Follow us</div>
         <div class="stp">workjeje</div>
     </div>
+
+    <script>
+        var frame = document.getElementById('frame61');
+        var button = document.getElementById('frame18');
+        var close = document.getElementById('close');
+        button.addEventListener("click", function() {
+
+            frame.style.display = "block";
+            close.style.display = "block";
+
+        });
+        close.addEventListener("click", function() {
+
+            frame.style.display = "none";
+            close.style.display = "none";
+
+        });
+    </script>
 </body>
 
 </html>

@@ -431,6 +431,51 @@ a {
     border-radius: 10px 10px 0px 0px;
 }
 
+#frame18 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 84px;
+    height: 17px;
+    left: 865px;
+    top: 202px;
+    background-image: url(../assets/Frame18.jpg);
+    background-size: 100% 100%;
+    border: none;
+}
+
+#frame61 {
+    position: absolute;
+    width: 1000px;
+    height: 650px;
+    left: 79px;
+    top: 792px;
+    background: #FFFFFF;
+    background-image: url(../assets/Frame61h.jpg);
+    background-size: 100% 100%;
+    z-index: 100;
+    box-shadow: 2px 3px 5px #999;
+    display: none;
+}
+
+#close {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: relative;
+    width: 84px;
+    height: 17px;
+    left: 866px;
+    top: 620px;
+    background-color: transparent;
+    border: none;
+}
+
 .main3 {
     width: 100%;
     height: 95%;

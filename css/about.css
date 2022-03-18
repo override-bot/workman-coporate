@@ -347,8 +347,9 @@ a {
     height: 400px;
     left: 142px;
     top: 1644.5px;
-    background: url(../assets/Workjeje/work7.jpg);
+    background: url(../assets/wbdl.jpg);
     border-radius: 5px;
+    background-size: 100% 100%;
 }
 
 .asc {
@@ -376,7 +377,8 @@ a {
     height: 40.65px;
     left: 642px;
     top: 1894px;
-    border: 0.883792px solid #1B1B3A;
+    background-image: url(../assets/Frame4.jpg);
+    background-size: 100% 100%;
     box-sizing: border-box;
     border-radius: 4.41896px;
 }
@@ -392,7 +394,8 @@ a {
     height: 40.65px;
     left: 800px;
     top: 1894px;
-    border: 0.883792px solid #1B1B3A;
+    background-image: url(../assets/Frame5.jpg);
+    background-size: 100% 100%;
     box-sizing: border-box;
     border-radius: 4.41896px;
 }
@@ -422,7 +425,8 @@ a {
     height: 40.65px;
     left: 200px;
     top: 1450px;
-    border: 0.883792px solid #1B1B3A;
+    background-image: url(../assets/Frame4.jpg);
+    background-size: 100% 100%;
     box-sizing: border-box;
     border-radius: 4.41896px;
 }
@@ -438,7 +442,8 @@ a {
     height: 40.65px;
     left: 360px;
     top: 1450px;
-    border: 0.883792px solid #1B1B3A;
+    background-image: url(../assets/Frame5.jpg);
+    background-size: 100% 100%;
     box-sizing: border-box;
     border-radius: 4.41896px;
 }
