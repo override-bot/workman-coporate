@@ -350,7 +350,7 @@ a {
     position: absolute;
     width: 1000px;
     height: 240px;
-    left: 79px;
+    left: 100px;
     top: 792px;
     background: #FFFFFF;
     display: flex;
@@ -788,8 +788,8 @@ a {
     position: absolute;
     width: 243px;
     height: 248px;
-    left: 27px;
-    top: 19px;
+    left: 150px;
+    top: 2250px;
     background-size: 100% 100%;
     background-image: url(../assets/wbel1.jpg);
     border-radius: 5px;
@@ -842,7 +842,7 @@ a {
     position: absolute;
     width: 411px;
     height: 184px;
-    left: 351px;
+    left: 400px;
     top: 38.5px;
 }
 
@@ -854,7 +854,7 @@ a {
     position: absolute;
     width: 89px;
     height: 34px;
-    left: 501px;
+    left: 550px;
     top: 2449.5px;
     border: 1px solid #1B1B3A;
     box-sizing: border-box;
@@ -890,7 +890,7 @@ a {
     position: absolute;
     width: 411px;
     height: 167px;
-    left: 220px;
+    left: 260px;
     top: 2568px;
 }
 
@@ -950,7 +950,7 @@ a {
     position: absolute;
     width: 89px;
     height: 34px;
-    left: 220px;
+    left: 260px;
     top: 2779px;
     border: 1px solid #1B1B3A;
     box-sizing: border-box;
@@ -987,10 +987,10 @@ a {
 
 .im3 {
     position: absolute;
-    width: 270px;
+    width: 260px;
     height: 248px;
-    left: -150px;
-    top: 17px;
+    right: 280px;
+    top: 2575px;
     background-size: 100% 100%;
     background-image: url(../assets/map.jpg);
     border-radius: 10px;
@@ -1079,7 +1079,7 @@ a {
     position: absolute;
     width: 1154px;
     height: 448px;
-    left: 70px;
+    left: 50px;
     top: 3800px;
     background: #1B1B3A;
 }
