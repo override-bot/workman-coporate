@@ -85,7 +85,7 @@ a {
     position: absolute;
     width: 31px;
     height: 15px;
-    left: 374px;
+    left: 390px;
     top: 24px;
     font-family: Inter;
     font-style: normal;
@@ -100,7 +100,7 @@ a {
     position: absolute;
     width: 36px;
     height: 15px;
-    left: 224px;
+    left: 270px;
     top: 24px;
     font-family: Inter;
     font-style: normal;
@@ -115,7 +115,7 @@ a {
     position: absolute;
     width: 51px;
     height: 15px;
-    left: 291px;
+    left: 340px;
     top: 24px;
     font-family: Inter;
     font-style: normal;
@@ -134,7 +134,7 @@ a {
     position: absolute;
     width: 111px;
     height: 18px;
-    left: 980px;
+    right: 150px;
     top: 14px;
     background: #197FAA;
     border-radius: 5px;
