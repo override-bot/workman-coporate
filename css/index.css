@@ -1,7 +1,8 @@
 body {
     background-color: white;
-    width: 95%;
+    width: 94%;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 .main {
@@ -87,7 +88,7 @@ body {
 .nav {
     display: flex;
     color: black;
-    margin-left: 70%;
+  
 }
 
 a {
@@ -167,7 +168,7 @@ a {
     position: absolute;
     width: 100px;
     height: 18px;
-    right: 100px;
+    right: 120px;
     top: 14px;
     /* Primary Color */
     background-color: #197FAA;
@@ -1081,7 +1082,7 @@ a {
     position: absolute;
     width: 95%;
     height: 448px;
-    left: 50px;
+   
     top: 3800px;
     background: #1B1B3A;
 }
