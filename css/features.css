@@ -2,11 +2,12 @@ body {
     background-color: white;
     width: 95%;
     overflow-x: hidden;
+    margin: 0 auto;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .r19 {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 61px;
     left: 0px;
@@ -28,7 +29,7 @@ a {
     position: absolute;
     width: 89px;
     height: 38px;
-    left: 60px;
+   
     top: 12px;
 }
 
@@ -135,7 +136,7 @@ a {
     position: absolute;
     width: 111px;
     height: 18px;
-    right: 100px;
+    right: 0px;
     top: 14px;
     background: #197FAA;
     border-radius: 5px;
@@ -391,7 +392,6 @@ a {
     height: 448px;
     top: 1500px;
     background: #1B1B3A;
-    left: 2.5%;
 }
 
 .r18 {

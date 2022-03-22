@@ -1,12 +1,13 @@
 body {
     background-color: white;
     width: 95%;
-   
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow-x: hidden;
 }
 
 .r19 {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 61px;
     left: 0px;
@@ -27,7 +28,7 @@ a {
     position: absolute;
     width: 100px;
     height: 38px;
-    left: 96px;
+   
     top: 12px;
 }
 
@@ -134,7 +135,7 @@ a {
     position: absolute;
     width: 111px;
     height: 18px;
-    right: 150px;
+    right: 0;
     top: 14px;
     background: #197FAA;
     border-radius: 5px;
@@ -310,10 +311,10 @@ a {
 
 .r20 {
     position: absolute;
-    width: 442px;
-    height: 400px;
-    left: 650px;
-    top: 1194px;
+    width: 300px;
+    height: 300px;
+    left: 700px;
+    top: 1294px;
     background-size: 100% 100%;
     background-image: url(../assets/frank-web1aa.jpg);
     border-radius: 10px;
@@ -349,10 +350,10 @@ a {
 
 .r21 {
     position: absolute;
-    width: 422px;
-    height: 400px;
-    left: 220px;
-    top: 1644.5px;
+    width: 300px;
+    height: 300px;
+    left: 240px;
+    top: 1744.5px;
     background: url(../assets/wbdl.jpg);
     border-radius: 5px;
     background-size: 100% 100%;
@@ -486,7 +487,7 @@ a {
     position: absolute;
     width: 100%;
     height: 448px;
-    left: 2.5%;
+   
     top: 2350px;
     background: #1B1B3A;
 }
