@@ -285,26 +285,10 @@ a {
     top: 275px;
     background: rgba(25, 127, 170, 0.473);
     border-radius: 6.40645px;
+    background-image: url(../assets/Frame40.jpg);
+    background-size: 100% 100%;
 }
 
-.feat1sub {
-    position: relative;
-    width: 49px;
-    height: 45px;
-    left: 15px;
-    top: 13px;
-    background: rgba(98, 98, 177, 0.1);
-    border-radius: 6.40645px;
-}
-
-.feat1ic {
-    position: absolute;
-    left: 6.46%;
-    right: 85.79%;
-    top: 8.33%;
-    bottom: 82.97%;
-    background: #87B0D1;
-}
 
 .feat2 {
     position: absolute;
@@ -314,37 +298,13 @@ a {
     top: 275px;
     background: rgba(98, 177, 70, 0.541);
     border-radius: 6.40645px;
+    background-image: url(../assets/Frame46.jpg);
+    background-size: 100% 100%;
 }
 
-.feat1txt {
-    position: absolute;
-    width: 283px;
-    height: 174px;
-    left: 52px;
-    top: 71px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 20px;
-    /* or 111% */
-    color: #1B1B3A;
-}
 
-.feat2txt {
-    position: absolute;
-    width: 302px;
-    height: 174px;
-    left: 45px;
-    top: 91px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 20px;
-    /* or 111% */
-    color: #1B1B3A;
-}
+
+
 
 .feat3 {
     position: absolute;
@@ -354,6 +314,8 @@ a {
     top: 600px;
     background: rgba(23, 184, 144, 0.658);
     border-radius: 6.40645px;
+    background-image: url(../assets/Frame51.jpg);
+    background-size: 100% 100%;
 }
 
 .feat4 {
@@ -364,6 +326,8 @@ a {
     top: 600px;
     background: rgba(47, 83, 34, 0.637);
     border-radius: 6.40645px;
+    background-image: url(../assets/Frame52.jpg);
+    background-size: 100% 100%;
 }
 
 .feat5 {
@@ -374,6 +338,8 @@ a {
     top: 930px;
     background: rgba(23, 184, 144, 0.534);
     border-radius: 6.40645px;
+    background-image: url(../assets/Frame53.jpg);
+    background-size: 100% 100%;
 }
 
 .feat6 {
@@ -384,6 +350,8 @@ a {
     top: 930px;
     background: rgba(63, 94, 52, 0.637);
     border-radius: 6.40645px;
+    background-image: url(../assets/Frame54.jpg);
+    background-size: 100% 100%;
 }
 
 .r13 {
